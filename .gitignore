@@ -1,2 +1,23 @@
 #Virture Environment
 venv/
+ENV/
+.venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE/editor configs
+.idea/
+.vscode/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore OS generated files
+Thumbs.db
